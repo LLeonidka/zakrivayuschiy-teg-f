@@ -13,6 +13,25 @@
   --text-color: #000;
   --text-icon-light: var(--page-background);
   --text-icon: var(--page-background);
+  --background-image: repeating-linear-gradient(
+    to right,
+    var(--background-color),
+    var(--background-color) 2px,
+    transparent 2px,
+    transparent 4px
+  ),
+  repeating-linear-gradient(
+    to bottom,
+    var(--background-color),
+    var(--background-color) 2px,
+    transparent 2px,
+    transparent 4px
+  ),
+  linear-gradient(var(--background-color-start), var(--background-color-end)),
+  linear-gradient(
+    var(--background-color-start) 0.01%,
+    var(--background-color-end) 100%
+  );
 }
 
 :root.theme-light {
