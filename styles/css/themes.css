@@ -9,7 +9,6 @@
   --title-font-weight: 700;
   --text-font-weight: 400;
   --text-color: #000;
-  --text-icon-light: var(--page-background);
   --text-icon: var(--page-background);
   --background-image: repeating-linear-gradient(
       to right,
