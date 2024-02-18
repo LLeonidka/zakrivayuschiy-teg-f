@@ -67,14 +67,31 @@
 /* Dark theme */
 @media (prefers-color-scheme: dark) {
   :root {
-    --weight-main: 465;
-    --weight-bold: 785;
-    --heart: #ff0000;
-    --themes-background: #000;
-    --themes-main-color: #00cc14;
-    --themes-main-color-for-button: #00cc14;
-    --line-gradient: #000;
-    --from-gradient: #007f0c;
-    --to-gradient: #004306;
+    --page-background: #000;
+    --background-color: #000;
+    --background-color-start: #007f0c;
+    --background-color-end: #004306;
+    --title-font-weight: 785;
+    --text-font-weight: 465;
+    --text-color: #00cc14;
+    --text-icon: #00cc14;
+    --background-image: repeating-linear-gradient(
+      to right,
+      var(--background-color),
+      var(--background-color) 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      var(--background-color),
+      var(--background-color) 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(
+      var(--background-color-start),
+      var(--background-color-end)
+    );
   }
 }

@@ -244,12 +244,10 @@
 .header {
   font-family: var(--fantasy-font-family);
   text-align: center;
-  margin: 100px 0;
-  padding: 136px 0 23px;
+  margin: 130px 0;
+  padding: 146px 0 30px;
   background: var(--page-background);
   border: 2px solid var(--text-color);
-/*  min-width: 696px;
-  min-height: 364px;*/
   margin-bottom: 102px;
 }
 
@@ -266,7 +264,7 @@
 .header__title {
   font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
   text-transform: uppercase;
-  margin: 9px 0 16px;
+  margin: 19px 0 22px;
   line-height: 23px;
 }
 
@@ -288,7 +286,7 @@
   font-size: 14px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 12px;
   width: -moz-min-content;
   width: min-content;
   text-align: start;
