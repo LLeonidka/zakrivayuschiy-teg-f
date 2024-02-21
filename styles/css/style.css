@@ -244,11 +244,11 @@
 .header {
   font-family: var(--fantasy-font-family);
   text-align: center;
-  margin: 130px 0;
-  padding: 146px 0 30px;
+  margin-top: 100px;
+  padding: 136px 0 30px;
   background: var(--page-background);
   border: 2px solid var(--text-color);
-  margin-bottom: 102px;
+  margin-bottom: 98px;
 }
 
 .header__link {
@@ -264,7 +264,7 @@
 .header__title {
   font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
   text-transform: uppercase;
-  margin: 19px 0 22px;
+  margin: 21px 0 26px;
   line-height: 23px;
 }
 
